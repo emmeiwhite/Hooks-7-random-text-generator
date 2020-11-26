@@ -4,7 +4,7 @@ import data from "./../../data";
 import "./GeneratorForm.css";
 
 export default function GeneratorForm() {
-  const [number, setNumber] = useState(0);
+  const [number, setNumber] = useState(1);
   const [paras, setParas] = useState([]);
 
   const handleChange = (e) => {
@@ -41,14 +41,14 @@ export default function GeneratorForm() {
     <div className="generator-wrapper">
       <form onSubmit={handleSubmit}>
         <h3>Tired of boring Lorem Ipsum?</h3>
-        <div>
-          <span>Paragraphs: </span>
+        <div className="generator-form">
+          <span>Paragraphs: </span>{" "}
           <input
             type="number"
             name="paraNumber"
             onChange={handleChange}
             value={number}
-          />
+          />{" "}
           <button>Generate</button>
         </div>
       </form>
