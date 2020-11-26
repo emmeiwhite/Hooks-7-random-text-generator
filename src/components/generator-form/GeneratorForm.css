@@ -1,0 +1,12 @@
+.generator-wrapper {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.generator-wrapper h3 {
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}

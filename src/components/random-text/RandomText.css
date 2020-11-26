@@ -1,0 +1,8 @@
+.para-wrapper {
+  list-style: none;
+  padding: 0;
+}
+.para-wrapper li {
+  margin: 2rem 0;
+  text-align: justify;
+}
